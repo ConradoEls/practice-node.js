@@ -12,6 +12,6 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
   console.log(
-    `Listening at port: http://localhost:${port}\nProducts: http://localhost:${port}/api/v1/products\nUsers: http://localhost:${port}/api/v1/users\nCategories: http://localhost:${port}/api/v1/categories`,
+    `Listening at port: http://localhost:${port}\n- Products: http://localhost:${port}/api/v1/products\n\n- Users: http://localhost:${port}/api/v1/users\n\n- Categories: http://localhost:${port}/api/v1/categories`,
   );
 });
